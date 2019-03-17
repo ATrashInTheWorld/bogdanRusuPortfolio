@@ -5,13 +5,22 @@
     <title>Home</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+    <!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- My css -->
     <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <!-- My JS -->
+    <script src="./js/jsGeneral.js"></script>
+
 </head>
 <body>
 
-<header>
+<header style="padding-top: 15px;">
     <h1>Hi, I'm Bogdan, a future IT security guard!</h1>
     <img src="./img/logo.png" alt="" id="logo"/>
     <br>
@@ -27,6 +36,9 @@
         Coding requires a lot of creativity, logic and resources in order to achieve the best and most efficient solution.
         To do so, you need to want to learn about anything, we don't know where the inspiration for our next solution will come from.
     </p>
+    <!-- make the 2 next paragraphs as a readmore thing to scroll down thing -->
+
+   <div class="collapse" id="extraTxt">
     <p>
         To do so, I read a lot. As much about computer and coding language as I read stories and comics.
         It really allows to experience and see other way to take a problem. Books are also a source for solutions.
@@ -37,6 +49,8 @@
         believe that books give the some of the needed knowledge in oder to do so. Reading allows me see
         many situations that I might never experience and still learn from it.
     </p>
+   </div>
+    <button class="btn btn-success" id="readMore" onclick="readMoreLess(this)">Read More</button>
 </div>
 
 <div id="introNav">
@@ -50,8 +64,8 @@
     </div>
 </div>
 
-<footer>
-    <a class="col-5 text-center" href="">About Me</a>
+<footer >
+    <a class="col-3 text-center" href="">About Me</a>
     <a class="col-3 text-center" href="">Contact Me</a>
     <a class="col-3 text-center" href="">Projects</a>
     <a class="col-3 text-center" href="">Home</a>
