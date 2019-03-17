@@ -11,6 +11,5 @@ function readMoreLess(el){
             $(el).text("Read More");
             $(el).removeClass("btn-primary").addClass("btn-success");
         }
-
-
 }
+
