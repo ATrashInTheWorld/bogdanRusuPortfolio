@@ -5,6 +5,25 @@ body{
     color: #aec2c5;
 }
 
+#navCorner{
+    z-index: 9999;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 93%;
+    position: fixed;
+}
+#navCornerLinks{
+    background-color: #0878fa;
+    color:white;
+    font-size: large;
+    width: 175px;
+    text-align: left;
+    line-height: 45px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+
+
 #logo{
     width: 10%;
     padding-bottom: 3%;
