@@ -17,8 +17,9 @@ body{
 #introText{
     padding-top: 3%;
     padding-bottom: 1%;
-    background-color: rgb(69, 82, 82);
-    color: #fbfff8;
+    background-color: rgb(43, 54, 54);
+    color: #dee2dc;
+    width:100%;
 }
 .pIntroTxt{
     margin: 0 8% 0 8%;
@@ -37,9 +38,10 @@ body{
 }
 
 img.navItemI:hover{
-
+    width:315px;
+    background-color: #ded400;
+    border-radius: 200px;
 }
-
 
 footer{
     padding-top: 2%;
