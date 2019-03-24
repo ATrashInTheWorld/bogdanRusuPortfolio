@@ -20,19 +20,24 @@
 </head>
 <body>
 
-<div id="navCorner">
-    <button class="btn btn-primary collapse.show" onmouseover="menuAppear()" id="menuBtn">Menu</button>
-    <div id="navCornerLinks" class="collapse">
-        <a class="" style="color: white;" href="">About Me</a><br/>
-        <a class="" style="color: white;" href="">Contact Me</a><br/>
-        <a class="" style="color: white;" href="">Projects</a><br/>
-        <a class="" style="color: white;" href="">Home</a><br/>
+
+
+<div id="navCorner" >
+    <button class="btn btn-primary collapse.show" onmouseover="menuAppear()"  id="menuBtn">Menu</button>
+    <div id="navCornerLinks" class="" onmouseleave="menuBtnBack()">
+        <a class="" href="" class="col-12">About Me</a><br/>
+        <a class=""  href="" class="col-12">Contact Me</a><br/>
+        <a class=""  href="" class="col-12">Projects</a><br/>
+        <a class=""  href="" class="col-12">Home</a><br/>
     </div>
 </div>
 
-<div id="upBtn">
-
+<div >
+    <button id="upBtn" class="btn" onclick="goBackUp()">Top</button>
 </div>
+
+
+
 
 
 <header style="padding-top: 15px;">

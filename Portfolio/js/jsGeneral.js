@@ -33,6 +33,15 @@ function readMoreLess(el){
 }
 
 function menuAppear(){
-    console.log("OKOK");
+    $("#menuBtn").removeClass("collapse.show").addClass("collapse");
+    $("#navCornerLinks").css("display", "block");
 }
 
+function menuBtnBack(){
+    $("#navCornerLinks").css("display", "none");
+    $("#menuBtn").removeClass("collapse").addClass("collapse.show");
+}
+
+function goBackUp(){
+    document.documentElement.scrollTop = 0;
+}
