@@ -56,6 +56,7 @@ footer{
 }
 /** end GENERAL **/
 
+
 /** INDEX **/
 #logo{
     width: 10%;
@@ -96,6 +97,7 @@ img.navItemI:hover{
 }
 /** end INDEX */
 
+
 /** CONTACT ME **/
 .contactPara{
     padding: 18px 10%;
@@ -122,10 +124,52 @@ img.navItemI:hover{
 /** end CONTACT ME **/
 
 
+/** PROJECTS **/
+.description{
+    background-color: rgb(43, 54, 54);
+    height: 150px;
+    overflow: auto;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.projectImg{
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: contain;
+    padding: 0px !important;
+    margin-left: 25px;
+}
 
+i {
+    border: solid #2bca2b;
+    border-width: 0px 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+    font-size: 50px;
+}
 
+.leftArrow {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
 
+.rightArrow {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
 
+.skill {
+    background: linear-gradient(to right, #ff2811 0%, #ff2811 15%, #ff9311 15%, #ff9311 55%, #f5af19 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-weight: 500;
+}
 
 
 
