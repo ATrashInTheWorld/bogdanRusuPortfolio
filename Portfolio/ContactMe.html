@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- My css -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <!-- My JS -->
+    <script src="./js/jsGeneral.js"></script>
+
+</head>
+<body>
+
+
+
+<div id="navCorner" >
+    <button class="btn btn-primary collapse.show" onmouseover="menuAppear()"  id="menuBtn">Menu</button>
+    <div id="navCornerLinks" class="" onmouseleave="menuBtnBack()">
+        <a class="" href="" class="col-12">About Me</a><br/>
+        <a class=""  href="ContactMe.html" class="col-12">Contact Me</a><br/>
+        <a class=""  href="" class="col-12">Projects</a><br/>
+        <a class=""  href="index.html" class="col-12">Home</a><br/>
+    </div>
+</div>
+
+<div >
+    <button id="upBtn" class="btn" onclick="goBackUp()">Top</button>
+</div>
+
+
+
+<h1 style="padding-top: 15px;"><span class="cTxt">Contact Me</span></h1>
+
+<p class="contactPara">
+    Want some <span class="cTxt">precisions</span> or simply to <span class="cTxt">chat</span>. Maybe you want to test
+    me on the <span class="cTxt">multiple languages</span> I learned.
+    Sure, I dont mind, feel <span class="cTxt">free</span> to contact me for any reason you like.
+</p>
+
+<form method="POST" action="" id="contactForm">
+    <div class=" text-center col-md-12 form-group">
+     <div class="col-md-4"></div>
+        <label for="name" class="col-12 col-md-2 text-center"><span class="cTxt"> Full Name</span> </label>
+    <input type="text" id="name" placeholder="Not mandatory" class="col-md-2 col-12"><br>
+    </div>
+    <div class=" text-center col-md-12 form-group">
+        <div class="col-md-4"></div>
+    <label for="email" class="col-12 col-md-2 text-center"><span class="cTxt">Email</span></label>
+        <input type="email" id="email" class="col-md-2 col-12" required><br>
+    </div>
+
+    <div class=" text-center col-md-12 form-group">
+    <textarea id="message" placeholder="Message" class="col-md-4" required></textarea><br>
+    </div>
+
+    <div class="text-center col-md-12">
+    <input type="submit" class="btn btn-success">
+    </div>
+</form>
+
+<br>
+
+<p class="contactPara">
+    No social media links here! Why? <span class="cTxt">Simple</span>, I prefer emails. It feels <span class="cTxt">more human</span>
+    and gives me a reason to push <span class="cTxt">work</span> for later.
+</p>
+
+
+
+<footer >
+    <a class="col-3 text-center" href="">About Me</a>
+    <a class="col-3 text-center" href="ContactMe.html">Contact Me</a>
+    <a class="col-3 text-center" href="">Projects</a>
+    <a class="col-3 text-center" href="index.html">Home</a>
+</footer>
+</body>
+</html>

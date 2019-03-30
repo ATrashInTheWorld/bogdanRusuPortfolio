@@ -1,10 +1,10 @@
+/** GENERAL **/
 body{
 
     text-align: center;
     background-color: #0e1111;
     color: #aec2c5;
 }
-
 
 #navCorner{
     z-index: 900;
@@ -48,6 +48,15 @@ body{
     background-color: rgb(255, 222, 0);
 }
 
+footer{
+    padding-top: 2%;
+    padding-bottom:2%;
+    background-color: rgb(0, 0, 0);
+
+}
+/** end GENERAL **/
+
+/** INDEX **/
 #logo{
     width: 10%;
     padding-bottom: 3%;
@@ -85,9 +94,47 @@ img.navItemI:hover{
     background-color: #ded400;
     border-radius: 200px;
 }
+/** end INDEX */
 
-footer{
-    padding-top: 2%;
-    padding-bottom:2%;
-    background-color: rgb(0, 0, 0);
+/** CONTACT ME **/
+.contactPara{
+    padding: 18px 10%;
 }
+#message{
+    height: 93px;
+    border-radius: 10px;
+}
+#message:focus{
+    background-color: #8ef5d8;
+}
+#email{
+    border-radius: 10px;
+}
+#email:focus{
+    background-color: #dedd6c;
+}
+#name{
+    border-radius: 10px;
+}
+#name:focus{
+    background-color: #fa8d8d;
+}
+/** end CONTACT ME **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
