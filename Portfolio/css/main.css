@@ -171,7 +171,12 @@ i {
     font-weight: 500;
 }
 
-
+#japan{
+    text-align: center;
+    backgroun-size: cover;
+    background-image: url("/portfolio/Portfolio/img/japan.jpeg");
+    width: 90%;
+}
 
 
 
