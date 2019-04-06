@@ -173,9 +173,20 @@ i {
 
 #japan{
     text-align: center;
-    backgroun-size: cover;
-    background-image: url("/portfolio/Portfolio/img/japan.jpeg");
-    width: 90%;
+    background-size:cover;
+    background-image: url("/portfolio/Portfolio/img/japan2.jpeg");
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+#japanTxt{
+color: red;
 }
 
 
