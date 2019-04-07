@@ -59,7 +59,7 @@ footer{
 
 /** INDEX **/
 #logo{
-    width: 10%;
+    width: 6%;
     padding-bottom: 3%;
     padding-top: 2%;
 }
@@ -189,7 +189,16 @@ i {
 color: red;
 }
 
+/** end  PROJECT **/
+.futurePlanTxt {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(43, 54, 54);
+    color: #dee2dc;
+    width:100%;
+}
 
+/**
 
 
 

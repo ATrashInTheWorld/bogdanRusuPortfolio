@@ -8,13 +8,6 @@ $(document).ready(function() {
         var randomNbr = Math.floor(Math.random() * 5);
         $(this).css("color", colorsArr[randomNbr]);
     });
-
-
-    //
-
-
-
-
 });
 
 
@@ -32,15 +25,18 @@ function readMoreLess(el){
         }
 }
 
+
 function menuAppear(){
     $("#menuBtn").removeClass("collapse.show").addClass("collapse");
     $("#navCornerLinks").css("display", "block");
 }
 
+
 function menuBtnBack(){
     $("#navCornerLinks").css("display", "none");
     $("#menuBtn").removeClass("collapse").addClass("collapse.show");
 }
+
 
 function goBackUp(){
     document.documentElement.scrollTop = 0;
