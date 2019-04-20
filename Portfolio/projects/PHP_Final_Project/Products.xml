@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<Products>
+
+    <prod id="1">
+
+        <comment id="1" status="rejected">
+            <rate>3</rate>
+            <com>LOLOLOLOLOL--- PENDING</com>
+        </comment>
+        <comment id="2" status="rejected">
+            <rate>3</rate>
+            <com>LOLOLOLOLOL--- REJECTED</com>
+        </comment>
+        <comment id="3" status="good">
+            <rate>3</rate>
+            <com>LOLOLOLOLOL--- GOOD</com>
+        </comment>
+    <comment id="4" status="rejected">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<rate>2</rate><com>COMMENT-----&gt;5</com></comment><comment id="5" status="rejected">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<rate>4</rate><com>asdasdasdasd</com></comment></prod>
+
+    <prod id="2">
+
+        <comment id="1" status="good">
+            <rate>3</rate>
+            <com>LOLOLOLOLOL--- PENDING</com>
+        </comment>
+        <comment id="2" status="rejected">
+            <rate>3</rate>
+            <com>LOLOLOLOLOL--- REJECTED</com>
+        </comment>
+        <comment id="3" status="good">
+            <rate>3</rate>
+            <com>LOLOLOLOLOL--- GOOD</com>
+        </comment>
+    </prod>
+
+    <prod id="3">
+
+    <comment id="1" status="good">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<rate>5</rate><com>COMMENT-----&gt;3</com></comment></prod>
+
+    <prod id="4">
+
+    <comment id="1" status="good">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<rate>3</rate><com>COMMENT-----&gt;1</com></comment><comment id="2" status="rejected">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<rate>3</rate><com>COMMENT-----&gt;89</com></comment><comment id="3" status="good">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<rate>3</rate><com>COMMENT-----&gt;56</com></comment><comment id="4" status="pending">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<rate>5</rate><com>tstydyuti;oyupo[</com></comment><comment id="5" status="pending">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<rate>3</rate><com>dasdasdasdqwedqsADWE</com></comment></prod>
+
+    <prod id="5">
+
+    </prod>
+
+    <prod id="6">
+
+    </prod>
+
+    <prod id="7">
+        <comment id="2" status="rejected">
+            <rate>3</rate>
+            <com>LOLOLOLOLOL--- REJECTED</com>
+        </comment>
+        <comment id="3" status="good">
+            <rate>3</rate>
+            <com>LOLOLOLOLOL--- GOOD</com>
+        </comment>
+    </prod>
+
+    <prod id="8">
+
+    </prod>
+
+    <prod id="9">
+
+    <comment id="1" status="rejected">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<rate>2</rate><com>COMMENT-----&gt;2</com></comment><comment id="2" status="good">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<rate>3</rate><com>adasdasdasdasd</com></comment></prod>
+
+
+
+
+
+
+</Products>

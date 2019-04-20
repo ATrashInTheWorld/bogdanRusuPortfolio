@@ -1,0 +1,139 @@
+<?php
+$u = "none";
+if(!isset($_COOKIE["user"]))
+    setcookie("user","none",time()+(30),"/");
+elseif(isset($_COOKIE['user']))
+    $u = $_COOKIE["user"];
+
+
+?>
+
+<!DOCTYPE html>
+<html>
+
+
+<script>
+    // https://stackoverflow.com/questions/13975891/change-image-in-html-page-every-few-seconds
+
+    var counter = 0;
+    function timer(){
+        counter++;
+        if (counter == 3)
+            counter = 0;
+
+        var imgs = ["Images/cowboyhat.jpg", "Images/selfhelpbook.gif", "Images/sweatshirt.jpg"];
+        document.getElementById("imgDisplayer").src = imgs[counter];
+    }
+    setInterval("timer()", 5000);
+
+</script>
+
+
+
+
+<head>
+    <meta charset="UTF-8" lang="en">
+    <title>Index</title>
+    <link href="CSS/css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="Images/logo.png"/>
+    <style>
+        #titleFont{
+            color: #ff870f;
+            font-size: 55px;
+            font-style: italic;
+            font-family: "Comic Sans MS";
+            margin-top: 50px;
+        }
+
+        .navFont{
+            font-size: 30px;
+        }
+
+        #toprod{
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        .displayImages{
+            margin-top: 5px;
+            border: 5px solid darkblue;
+            margin-left: 10px;
+            height: 20em;
+            width:21.5em;
+        }
+
+        @media screen and (min-width : 450px){
+            .displayImages {
+                height: 30em;
+                width: 55em;
+                margin-left: 225px;
+            }
+        }
+
+
+
+        #footerD{
+            margin-top: 25px;
+            background:linear-gradient(cornflowerblue,darkblue);
+            font-size: 15px;
+        }
+    </style>
+
+</head>
+<body style="background: #d7ffd5">
+
+<div class="row"
+     style="background:linear-gradient(grey, blue); padding-top: 25px; padding-bottom: 25px; ">
+    <a href="Index.php"> <img src="Images/logo.png" alt="What Kind of Shop are we?" style="margin-left: 125px;" > </a>
+<p class="text-center" id="titleFont">What Kind of Shop are we?</p>
+</div>
+
+<div style="padding-right: 35px;">
+    <?php
+    if($u == "none") {
+        ?>
+        <br>
+        <form action="loginProcess.php" method="post" style="text-align: right;">
+            Username:<input type="text" name="username">&nbsp;&nbsp;&nbsp;
+            Password:<input type="password" name="password">&nbsp;&nbsp;&nbsp;
+            <input type="submit" name="login" value="Login">
+            <a href="signUpPage.php">Sign up</a>
+        </form>
+        <br>
+        <?php
+    }
+    else{
+        ?>
+        <p style='text-align: right; font-size: 35px;'>Welcome <?php echo $_COOKIE["user"]; ?>
+        <br>
+        <form style='text-align: right;' action="loginProcess.php" method="post">
+            <input type="submit" name="logout" value="Logout">
+        </form>
+        </p>
+    <?php
+    }
+    ?>
+
+</div>
+
+<div class="bg-success text-center" style="padding-bottom: 15px; padding-top: 15px;">
+    <a href="AboutUs.php" class="text-warning navFont col-sm-12">About Us</a>
+    <a href="seestore.php" class="text-warning navFont col-sm-12">See the Store</a>
+    <a href="ContactUs.php" class="text-warning navFont col-sm-12">Contact Us</a>
+</div>
+
+<div class="">
+<p class="text-center" id="toprod"> Top products:</p>
+</div>
+
+<a href="seestore.php"><img  alt="Click to visit the store!" src="Images/cowboyhat.jpg" class="displayImages"  id="imgDisplayer"></a>
+</body>
+
+<footer id="footerD" class="text-center text-warning">
+    What Kind of Shop are we?<br>
+    <a href="Index.php"> <img src="Images/logo.png" style="height: 75px; width: 75px;"> </a>
+    <p>Phone: 123-456-0987 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:
+        <a href="mailto:wks@hotail.com" class="text-warning">wks@hotmail.com</a></p>
+</footer>
+
+</html>

@@ -142,8 +142,11 @@ img.navItemI:hover{
     height: 200px !important;
     object-fit: contain;
     padding: 0px !important;
-    margin-left: 25px;
 }
+.projectDesc {
+    margin-top: 25px;
+}
+
 
 i {
     border: solid #2bca2b;
