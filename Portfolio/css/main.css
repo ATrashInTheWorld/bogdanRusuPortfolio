@@ -136,6 +136,8 @@ img.navItemI:hover{
     margin-bottom: 10px;
     border-radius: 10px;
     font-size: 18px;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .projectImg{
     width: 200px !important;
@@ -164,6 +166,7 @@ i {
 .rightArrow {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+    margin-right: 10px;
 }
 
 .skill {
@@ -199,6 +202,8 @@ color: red;
     background-color: rgb(43, 54, 54);
     color: #dee2dc;
     width:100%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /**
